@@ -20,7 +20,7 @@ namespace AM.ApplicationCore.Domain
 
         public override string ToString()
         {
-            return this.FlightId+this.Destination+this.EstimatedDuration; 
+            return this.FlightId + " " + this.Destination + " " + this.EstimatedDuration;
         }
     }
 }

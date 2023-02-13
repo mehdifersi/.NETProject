@@ -15,13 +15,18 @@ namespace AM.ApplicationCore.Domain
         public PlaneType PlaneType { get; set; }
         public ICollection<Flight> Flights { get; set; }
 
+        public override string ToString()
+        {
+            return this.PlaneID + " " + this.PlaneType + " " + this.ManufactureDate + " " + this.Capacity;
+        }
+
         //public Plane(PlaneType pt, int capacity, DateTime date)
         //{
-            
+
         //    PlaneType = pt;
         //    Capacity = capacity;
         //    ManufactureDate = date;
-            
+
         //}
 
         //public Plane()
