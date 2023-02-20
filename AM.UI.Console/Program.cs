@@ -39,3 +39,4 @@ using AM.ApplicationCore.Services;
 
 ServiceFlight serviceFlight=new ServiceFlight();
 serviceFlight.Flights = TestData.listFlights;
+

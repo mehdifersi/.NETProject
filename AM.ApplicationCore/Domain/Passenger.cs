@@ -49,7 +49,10 @@ namespace AM.ApplicationCore.Domain
         {
             Console.WriteLine("I'm a passenger");
         }
-
+        //public override string ToString()
+        //{
+        //    return this.LastName + " " + this.FirstName;
+        //}
 
     }
 
